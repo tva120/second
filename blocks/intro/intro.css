@@ -1,0 +1,13 @@
+@import url(./__font-weight/intro__font-weight.css);
+@import url(./__list-item/intro__list-item.css);
+@import url(./__list/intro__list.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+
+.intro {
+    max-width: 690px;
+    min-width: 288px;
+    width: 690px;
+    margin: 0 auto;
+    padding-top: 114px;
+}
