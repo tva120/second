@@ -1,10 +1,16 @@
 .footer__links {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 18px;
     list-style: none;
     padding: 0;
-    color: #fff;
     margin: 0;
-    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 18px;    
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
 }

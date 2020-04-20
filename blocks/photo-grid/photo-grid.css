@@ -9,3 +9,39 @@
     padding-top: 92px;
 
 }
+
+
+
+
+@media screen and (max-width: 1279px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 14px;
+        padding-bottom: 64px;
+        padding-top: 64px;
+        margin: 0 48px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+        padding-bottom: 64px;
+        padding-top: 64px;
+        margin: 0 24px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 12px;
+        padding-bottom: 64px;
+        padding-top: 64px;
+        margin: 0 16px;
+    }
+}

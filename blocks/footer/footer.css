@@ -3,8 +3,32 @@
 @import url(./__links/footer__links.css);
 
 .footer {
+    width: 95%;
     max-width: 1184px;
-    margin: 0 auto;
+
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+@media screen and (max-width: 1023) {
+    .footer {
+
+        max-width: 929px; 
+        padding: 0 17px;
+        
+       
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        width: calc(100% - 34px);    
+        max-width: calc(100% - 34px);    
+        padding: 0 17px;
+
+    }
 }

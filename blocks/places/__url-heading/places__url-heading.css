@@ -8,3 +8,11 @@
     margin: 0 0 16px;
     color: #AAAAAA;
 }
+
+@media screen and (max-width: 767px)
+{
+.places__url-heading {
+
+    margin: auto 16px;
+}
+}

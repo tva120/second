@@ -7,3 +7,11 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 767px)
+{
+.places__link {
+
+    margin: auto 16px;
+}
+}

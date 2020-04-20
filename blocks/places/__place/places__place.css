@@ -6,3 +6,36 @@
     grid-column-gap: 43px;
     margin: 0 0 72px 0;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .places__place {     
+         grid-column-gap: 32px;   
+         margin: 0 48px;  
+     }
+ } 
+ 
+ 
+ @media screen and (max-width: 1023px) {
+     .places__place {        
+         grid-column-gap: 28px; 
+         margin: 0 24px;
+         
+     }
+ } 
+ 
+ @media screen and (max-width: 767px) {
+     .places__place {
+        margin: 0 0;
+         grid-template-columns: 1fr;
+         margin-bottom: 48px;
+         grid-gap: 32px;
+     }
+ 
+     .places__place:last-of-type {
+        
+         margin-bottom: 0;
+         
+     }
+ }
+ 
